@@ -4,15 +4,17 @@
 
 ### Primitive Data Types:
 
-Basic building blocks of JavaScript.
-They store single values directly.
-Examples: numbers, strings, booleans, null, undefined.
+1. Basic building blocks of JavaScript.
+2. They store single values directly.
+
+### Examples: numbers, strings, booleans, null, undefined.
 
 ### Non-primitive Data Types:
 
-Made up of multiple primitive or non-primitive data types.
-They are more complex and can store collections of data.
-Examples: arrays, objects.
+1.Made up of multiple primitive or non-primitive data types.
+2.They are more complex and can store collections of data.
+
+### Examples: arrays, objects.
 
 ### Difference:
 
