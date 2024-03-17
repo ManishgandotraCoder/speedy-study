@@ -1,14 +1,15 @@
-The spread operator in JavaScript is denoted by three consecutive dots ... and is used primarily for two purposes:
+# spread operator
+### The spread operator in JavaScript is denoted by three consecutive dots ... and is used primarily for two purposes:
 
 Expanding arrays or iterable objects: It allows an iterable (like an array or string) to be expanded where zero or more arguments (for function calls) or elements (for array literals) are expected.
 
 Copying properties from one object to another: It can be used to create a shallow copy of an object or merge multiple objects into one.
 
-Here are examples illustrating both uses:
+#### Here are examples illustrating both uses:
 
 1. Expanding arrays or iterable objects:
 
-````jsx harmony
+````
    // Example 1: Combining arrays
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
@@ -22,10 +23,9 @@ function sum(a, b, c) {
 
 const numbers = [1, 2, 3];
 const result = sum(...numbers); // Equivalent to sum(1, 2, 3), returns 6
-   ```
 ````
 
-```jsx harmony
+```
 // Example 1: Creating a shallow copy of an object
 const obj1 = { name: "John", age: 30 };
 const obj2 = { ...obj1 }; // Creates a new object with the same properties
