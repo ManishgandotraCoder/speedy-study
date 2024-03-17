@@ -1,21 +1,23 @@
-# 1. Closures:
+# 1. Primitive and Non Primitive Data types:
 
-## A closure is a function that remembers the variables from the outer scope even after that scope has finished executing. It's like a backpack that the inner function carries around, containing all the variables it needs from the outer function. For instance, in JavaScript:
+## In JavaScript, primitive data types are simple data types that represent single values, while non-primitive data types are more complex and can hold multiple values or other data types. Here's a simplified explanation:
 
-<script>
-function outerFunction() {
-    let outerVariable = 'Hello';
-    
-    function innerFunction() {
-        console.log(outerVariable);
-    }
-    
-    return innerFunction;
-}
+### Primitive Data Types:
 
-let myClosure = outerFunction();
-myClosure(); // Output: Hello
+Basic building blocks of JavaScript.
+They store single values directly.
+Examples: numbers, strings, booleans, null, undefined.
 
-</script>
+Non-primitive Data Types:
 
-## In this example, innerFunction retains access to outerVariable even after outerFunction has completed execution. This allows for powerful and flexible code structures.
+Made up of multiple primitive or non-primitive data types.
+They are more complex and can store collections of data.
+Examples: arrays, objects.
+Difference:
+
+Primitive data types are like individual LEGO blocks, while non-primitive data types are like LEGO sets made up of multiple blocks.
+Primitive data types are simple and directly store values, while non-primitive data types can store more complex data structures.
+
+![image](https://github.com/ManishgandotraCoder/speedy-study/assets/126446734/4fb3c679-1c0e-4253-8d56-c75302bd4168)
+
+In this example, age, name, isStudent, x, and y are primitive data types, while numbers and person are non-primitive data types.
