@@ -1,0 +1,13 @@
+## New Keyword
+
+#### In JavaScript, the new keyword is used to create an instance of an object from a constructor function. Constructor functions are regular functions but are intended to be used with the new keyword to create objects.
+
+![alt text](./../images/image.png)5
+
+#### In this example:
+
+1. We define a constructor function Person which takes name and age parameters and assigns them to properties of the created object using this.
+2. We create a new instance of the Person object using the new keyword and assign it to the variable person1.
+3. We then access the properties of the person1 object using dot notation (person1.name, person1.age).
+
+#### Without the new keyword, this inside the constructor function would refer to the global object (window in a browser environment), which is generally not what you want when creating new objects. The new keyword ensures that a new object is created and this refers to that newly created object within the constructor function.

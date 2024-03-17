@@ -1,0 +1,7 @@
+The rest parameter, denoted by three dots (...), is a feature in JavaScript that allows you to represent an indefinite number of arguments as an array. It is often used in function definitions to handle variable numbers of arguments passed to a function.
+
+Here's a basic example of how the rest operator works
+![alt text](../images/image.png)
+In this example, the sum function accepts any number of arguments. When you call the sum function with arguments, the rest parameter ...numbers collects all the arguments into an array called numbers. Inside the function, you can then treat numbers as an array and perform operations like iteration or array methods on it.
+
+The rest parameter syntax allows you to handle variable-length argument lists more flexibly without explicitly specifying each argument. This can be especially useful when you don't know in advance how many arguments will be passed to a function.
