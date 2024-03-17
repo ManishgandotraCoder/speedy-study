@@ -6,19 +6,6 @@ A closure is a function that remembers the variables from the outer scope even a
 
 ## Example
 
-<script>
-function outerFunction() {
-    let outerVariable = 'Hello';
-    
-    function innerFunction() {
-        console.log(outerVariable);
-    }
-    
-    return innerFunction;
-}
+![image](https://github.com/ManishgandotraCoder/speedy-study/assets/126446734/177b4bcb-88d7-4d9b-a863-cbfe7c5901b3)
 
-let myClosure = outerFunction();
-myClosure(); // Output: Hello
-
-</script>
 In this example, innerFunction retains access to outerVariable even after outerFunction has completed execution. This allows for powerful and flexible code structures.
